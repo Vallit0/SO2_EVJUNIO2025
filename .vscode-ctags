@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/desquivel/Documents/SO2-2S2024/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+Book	Clase 11 - API/api.c	/^} Book;$/;"	t	typeref:struct:__anon8223ddd00108	file:
+PORT	Clase 11 - API/api.c	/^#define PORT /;"	d	file:
+PROCFS_MAX_SIZE	Clase 3 - Modulos de Kernel/Modulo2.c	/^#define PROCFS_MAX_SIZE /;"	d	file:
+SIZE	Clase 9 - Memoria Virtual/mmap_array.c	/^#define SIZE /;"	d	file:
+THREAD_COUNT	Clase 5 - Multithreading/multithreading4.c	/^#define THREAD_COUNT /;"	d	file:
+__anon5b653af30108	Clase 6 - Sincronización de Procesos/semaforo.c	/^typedef struct {$/;"	s	file:
+__anon8223ddd00108	Clase 11 - API/api.c	/^typedef struct {$/;"	s	file:
+_insert	Clase 3 - Modulos de Kernel/Modulo1.c	/^static int __init _insert(void){$/;"	f	typeref:typename:int __init	file:
+_insert	Clase 3 - Modulos de Kernel/Modulo2.c	/^static int _insert(void)$/;"	f	typeref:typename:int	file:
+_remove	Clase 3 - Modulos de Kernel/Modulo1.c	/^static void __exit _remove(void){$/;"	f	typeref:typename:void __exit	file:
+_remove	Clase 3 - Modulos de Kernel/Modulo2.c	/^static void _remove(void)$/;"	f	typeref:typename:void	file:
+all	Clase 3 - Modulos de Kernel/Makefile	/^all:$/;"	t
+args	Clase 5 - Multithreading/multithreading1.c	/^struct args {$/;"	s	file:
+args	Clase 5 - Multithreading/multithreading2.c	/^struct args {$/;"	s	file:
+args	Clase 5 - Multithreading/multithreading3.c	/^struct args {$/;"	s	file:
+author	Clase 11 - API/api.c	/^    char author[50];$/;"	m	struct:__anon8223ddd00108	typeref:typename:char[50]	file:
+book_to_json	Clase 11 - API/api.c	/^json_t* book_to_json(const Book* book) {$/;"	f	typeref:typename:json_t *
+cadena	Clase 5 - Multithreading/multithreading1.c	/^    char* cadena;$/;"	m	struct:args	typeref:typename:char *	file:
+cadena	Clase 5 - Multithreading/multithreading2.c	/^    char* cadena;$/;"	m	struct:args	typeref:typename:char *	file:
+cadena	Clase 5 - Multithreading/multithreading3.c	/^    char* cadena;$/;"	m	struct:args	typeref:typename:char *	file:
+clean	Clase 3 - Modulos de Kernel/Makefile	/^clean:$/;"	t
+cond	Clase 6 - Sincronización de Procesos/semaforo.c	/^    pthread_cond_t cond;$/;"	m	struct:__anon5b653af30108	typeref:typename:pthread_cond_t	file:
+create_book	Clase 11 - API/api.c	/^int create_book(const struct _u_request *request, struct _u_response *response, void *user_data)/;"	f	typeref:typename:int
+current_id	Clase 11 - API/api.c	/^int current_id = 1;$/;"	v	typeref:typename:int
+get_all_books	Clase 11 - API/api.c	/^int get_all_books(const struct _u_request *request, struct _u_response *response, void *user_dat/;"	f	typeref:typename:int
+get_book	Clase 11 - API/api.c	/^int get_book(const struct _u_request *request, struct _u_response *response, void *user_data){$/;"	f	typeref:typename:int
+id	Clase 11 - API/api.c	/^    int id;$/;"	m	struct:__anon8223ddd00108	typeref:typename:int	file:
+increment	Clase 8 - Punteros/pointers.c	/^void increment(int *p)$/;"	f	typeref:typename:void
+library	Clase 11 - API/api.c	/^Book library[100];$/;"	v	typeref:typename:Book[100]
+lock	Clase 6 - Sincronización de Procesos/mutex.c	/^pthread_mutex_t lock;$/;"	v	typeref:typename:pthread_mutex_t
+lock	Clase 6 - Sincronización de Procesos/semaforo.c	/^    pthread_mutex_t lock;$/;"	m	struct:__anon5b653af30108	typeref:typename:pthread_mutex_t	file:
+main	Clase 11 - API/api.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	Clase 2 - Llamadas de Sistema/child.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	Clase 2 - Llamadas de Sistema/parent.c	/^void main(){$/;"	f	typeref:typename:void
+main	Clase 2 - Llamadas de Sistema/pipes.c	/^int main(){$/;"	f	typeref:typename:int
+main	Clase 5 - Multithreading/multithreading1.c	/^int main(){$/;"	f	typeref:typename:int
+main	Clase 5 - Multithreading/multithreading2.c	/^int main(){$/;"	f	typeref:typename:int
+main	Clase 5 - Multithreading/multithreading3.c	/^int main(){$/;"	f	typeref:typename:int
+main	Clase 5 - Multithreading/multithreading4.c	/^int main(void){	$/;"	f	typeref:typename:int
+main	Clase 6 - Sincronización de Procesos/mutex.c	/^int main(){$/;"	f	typeref:typename:int
+main	Clase 6 - Sincronización de Procesos/semaforo.c	/^int main(){$/;"	f	typeref:typename:int
+main	Clase 6 - Sincronización de Procesos/semaforo2.c	/^int main() $/;"	f	typeref:typename:int
+main	Clase 8 - Punteros/pointers.c	/^int main()$/;"	f	typeref:typename:int
+main	Clase 9 - Memoria Virtual/mmap_array.c	/^int main(){$/;"	f	typeref:typename:int
+main	Clase 9 - Memoria Virtual/mmap_file.c	/^int main(){$/;"	f	typeref:typename:int
+myFunction	Clase 5 - Multithreading/multithreading1.c	/^void* myFunction(void* name){$/;"	f	typeref:typename:void *
+myFunction	Clase 5 - Multithreading/multithreading2.c	/^void* myFunction(void* id){$/;"	f	typeref:typename:void *
+myFunction	Clase 5 - Multithreading/multithreading3.c	/^void* myFunction(void* input){$/;"	f	typeref:typename:void *
+myFunction	Clase 5 - Multithreading/multithreading4.c	/^void* myFunction(void *arg)$/;"	f	typeref:typename:void *
+numero	Clase 5 - Multithreading/multithreading1.c	/^    int numero;$/;"	m	struct:args	typeref:typename:int	file:
+numero	Clase 5 - Multithreading/multithreading2.c	/^    int numero;$/;"	m	struct:args	typeref:typename:int	file:
+numero	Clase 5 - Multithreading/multithreading3.c	/^    int numero;$/;"	m	struct:args	typeref:typename:int	file:
+obj-m	Clase 3 - Modulos de Kernel/Makefile	/^obj-m = Modulo1.o$/;"	m
+proc_buffer	Clase 3 - Modulos de Kernel/Modulo2.c	/^static char proc_buffer[PROCFS_MAX_SIZE] = "Hola, clase de Sistemas operativos 2\\n"; $/;"	v	typeref:typename:char[]	file:
+proc_operations	Clase 3 - Modulos de Kernel/Modulo2.c	/^static struct proc_ops proc_operations =$/;"	v	typeref:struct:proc_ops	file:
+push	Clase 8 - Punteros/pointers.c	/^void push(int *arr, int value)$/;"	f	typeref:typename:void
+read_file	Clase 3 - Modulos de Kernel/Modulo2.c	/^static ssize_t read_file(struct file *file, char __user *buf, size_t count, loff_t *offset) {$/;"	f	typeref:typename:ssize_t	file:
+s	Clase 6 - Sincronización de Procesos/semaforo.c	/^semaforo s;$/;"	v	typeref:typename:semaforo
+s	Clase 6 - Sincronización de Procesos/semaforo2.c	/^sem_t s; $/;"	v	typeref:typename:sem_t
+semaforo	Clase 6 - Sincronización de Procesos/semaforo.c	/^} semaforo;$/;"	t	typeref:struct:__anon5b653af30108	file:
+semaforo_init	Clase 6 - Sincronización de Procesos/semaforo.c	/^void semaforo_init(semaforo *s, int value){$/;"	f	typeref:typename:void
+semaforo_signal	Clase 6 - Sincronización de Procesos/semaforo.c	/^void semaforo_signal(semaforo *s){$/;"	f	typeref:typename:void
+semaforo_wait	Clase 6 - Sincronización de Procesos/semaforo.c	/^void semaforo_wait(semaforo *s){$/;"	f	typeref:typename:void
+size	Clase 8 - Punteros/pointers.c	/^int size = 3;$/;"	v	typeref:typename:int
+thread	Clase 6 - Sincronización de Procesos/semaforo2.c	/^void* thread(void* arg) $/;"	f	typeref:typename:void *
+thread_function	Clase 6 - Sincronización de Procesos/mutex.c	/^void* thread_function(void* arg){$/;"	f	typeref:typename:void *
+thread_function	Clase 6 - Sincronización de Procesos/semaforo.c	/^void* thread_function(void* arg){$/;"	f	typeref:typename:void *
+title	Clase 11 - API/api.c	/^    char title[50];$/;"	m	struct:__anon8223ddd00108	typeref:typename:char[50]	file:
+value	Clase 6 - Sincronización de Procesos/semaforo.c	/^    int value;$/;"	m	struct:__anon5b653af30108	typeref:typename:int	file:
+whoisthis	Clase 3 - Modulos de Kernel/Modulo2.c	/^static char* whoisthis = "Derek";$/;"	v	typeref:typename:char *	file:
+write_file	Clase 3 - Modulos de Kernel/Modulo2.c	/^static ssize_t write_file(struct file *file, const char __user *buff, size_t count, loff_t *offs/;"	f	typeref:typename:ssize_t	file:
