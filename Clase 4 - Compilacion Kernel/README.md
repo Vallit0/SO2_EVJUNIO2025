@@ -4,7 +4,7 @@
 Primero necesitamos instalar algunos paquetes necesarios para la compilación:
 
 ```bash
-$ sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev fakeroot dwarves
+ sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev fakeroot dwarves
 ```
 
 ## Descargar y descomprimir el kernel
@@ -15,21 +15,21 @@ A continuación, debemos descargar el codigo fuente del kernel desde el sitio we
 Usaremos la version ```longterm``` del kernel (Al meomento de este tutorial era la version 6.6.44).  Copie el enlace del hipervínculo ```tarball```. Luego use este enlace para descargar y descomprimir la fuente del kernel.
 
 ```bash
-$ wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.44.tar.xz
-$ tar -xf linux-6.6.44.tar.xz
+wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.44.tar.xz
+tar -xf linux-6.6.44.tar.xz
 ```
 
 ## Configurar el kernel
 Primero ingrasamos al directorio del codigo fuente:
 
 ```bash
-$ cd linux-6.6.44
+cd linux-6.6.44
 ```
 
 La configuración del kernel se debe especificar en un archivo .config. Para no escribir este desde 0 vamos a copiar el archivo de configuración de su Linux actualmente instalado:
 
 ```bash
-$ cp -v /boot/config-$(uname -r) .config
+cp -v /boot/config-$(uname -r) .config
 ```
 
 Sin embargo, este esta lleno de modulos y drivers que no necesitamos que pueden aumentar el tiempo de compilación. Por lo que utilizamos el comando localmodconfig que analiza los módulos del kernel cargados de su sistema y modifica el archivo .config de modo que solo estos módulos se incluyan en la compilación. Tomar en cuenta que esto causará que nuestro kernel compilado solo funcione en nuestra maquina, por lo que si quieren que sea portatil omitan este paso.
