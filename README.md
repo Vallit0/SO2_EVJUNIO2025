@@ -1,4 +1,4 @@
-# 🖥️ SO2 - 2S2024
+# 🖥️ SO2 - Escuela de Vacaciones 2025
 
 Repositorio de apoyo para el curso de **Sistemas Operativos 2**, escuela de vacaciones Junio 2025. Aquí encontrarás los materiales, ejemplos, tareas y proyectos desarrollados durante el curso, enfocados en el funcionamiento interno de los sistemas operativos modernos.
 
