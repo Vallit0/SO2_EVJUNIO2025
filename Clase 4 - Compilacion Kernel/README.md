@@ -77,9 +77,13 @@ Primero se instalan los módulos del kernel ejecutando:
 $ sudo make modules_install
 ```
 
+
+
+
 Luego instalamos el kernel:
 ```bash
 $ sudo make install
 ```
-
+### Nota: Cuando iniciamos de nuevo, debemos presionar SHIFT al iniciar la VM para que nos muestre el GRUB. 
+En esta seccion podemos escoger que Kernel Utilizar. 
 Después de eso, reiniciamos la computadora para que se complete la instalación.
