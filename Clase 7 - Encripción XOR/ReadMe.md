@@ -194,11 +194,7 @@ int process_file(const char *input_path, const char *output_path, const char *ke
 
         // Crear y ejecutar el hilo
         threads[i] = kthread_run(xor_task, &task_params[i], "xor_thread_%d", i);
-        if (IS_ERR(threads[i])) {
-            ret = PTR_ERR(threads[i]);
-            printk(KERN_ERR "Error al crear el hilo %d: %d\n", i, ret);
-            goto free_all;
-        }
+        // AQUI DEBES CREAR UNA SENTENCIA PARA VERIFICAR ERRORES 
     }
 
     // Esperar a que todos los hilos terminen
@@ -208,6 +204,7 @@ int process_file(const char *input_path, const char *output_path, const char *ke
     }
 
 }
+// AQUI DEBES IMPLEMENTAR LA ESCRITURA A LOS ARCHIVOS.
 
 // Llamada al sistema que expone la funcionalidad
 SYSCALL_DEFINE3(xor_encrypt, const char __user *, input_path, const char __user *, output_path, const char __user *, key_path) {
