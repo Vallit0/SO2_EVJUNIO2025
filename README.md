@@ -1,6 +1,3 @@
-# Información
-- ### Jeser Emanuel Rodas Medina
-- ### 202105561
 
 # Proyecto: USAC Linux
 
